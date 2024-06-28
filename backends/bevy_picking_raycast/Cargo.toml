@@ -20,6 +20,6 @@ bevy_render = { git = "https://github.com/bevyengine/bevy.git", default-features
 bevy_transform = { git = "https://github.com/bevyengine/bevy.git", default-features = false }
 bevy_window = { git = "https://github.com/bevyengine/bevy.git", default-features = false }
 
-bevy_mod_raycast = { version = "0.18.0-rc.0" }
+bevy_mod_raycast = { git = "https://github.com/iancormac84/bevy_mod_raycast.git", branch = "bevy-main" }
 # Local
 bevy_picking_core = { path = "../../crates/bevy_picking_core", version = "0.20.0-rc.0" }
